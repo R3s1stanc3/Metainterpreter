@@ -87,7 +87,7 @@ public class Interpreter
                 genCode += func ( tmp . split("\n") ) + "\n" ;
             }
             
-			// generating conditions
+            // generating conditions
             else if ( code [ i ] . startsWith ( "cond" ) )
             {
                 char condCount = code [ i ] . charAt ( 4 ) ;
