@@ -277,6 +277,7 @@ public class Interpreter
             metacode_if += instr [ i ] + "\n" ;
             
         i += 2 ;
+        // fuck you too, Java! for ( i; ; ) won't work 
         for ( i = i; instr[i].indexOf("elseend") == -1; i++ )
             metacode_else += instr [ i ] + "\n" ;
             
