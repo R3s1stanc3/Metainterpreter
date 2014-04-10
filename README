@@ -1,0 +1,2 @@
+This is a metamorphic interpreter, to translate a metalanguage into Java code.
+The generated code can be compiled later, using the JavaCompiler class
